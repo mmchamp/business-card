@@ -1,0 +1,94 @@
+body {
+    background-color:rgb(193, 83, 27)
+}
+
+
+
+.front-card{
+    width:350px;
+    height: 612px;
+    /* What centers the card */
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 70px;
+    box-shadow: 2px 5px 15px 0px #17161694;
+    background-image: url("Assets/Front-Card.svg")
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    background-image: url("Assets/Card-back.svg");
+    box-shadow: 2px 5px 15px 0px #17161694;
+}
+.icon-container{
+    display:grid;
+    width: 85px;
+    padding-left: 240px;
+    position: relative;
+    top: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: y
+    "a b c";
+  }
+ 
+  h1{
+    color: rgb(193, 83, 27);
+    font-size: 23px; 
+    position: relative;
+    top: 400px;
+    right: 20px;
+    text-align: right; 
+    font-family: Playfair-Display
+  }
+  
+  h3{
+    font-size: 12px;
+    position: relative;
+    top: 400px;
+    right: 20px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  h4{
+    font-size: 12px;
+    position: relative;
+    top: 400px;
+    right: 20px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  svg:hover {
+    fill:rgb(193, 83, 27);
+  }
+  svg{
+    fill:black;
+  }
+
+  /* mouse over link */
+a:hover {
+  color:rgb(193, 83, 27);
+}
+/* unvisited link */
+a:link {
+  color: rgb(193, 83, 27);
+}
+
+/* visited link */
+a:visited {
+  color:rgb(193, 83, 27);
+}
+
+/* selected link */
+a:active { 
+  color:rgb(193, 83, 27);
+}
+
+a:visited {
+  text-decoration: none;
+}
